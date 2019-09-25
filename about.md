@@ -13,4 +13,4 @@ because my school never did it.
 
 ### Contact me
 
-[email@domain.com](mailto:Kylybob@gmail.com)
+[Kylybob@gmail.com](mailto:Kylybob@gmail.com)
