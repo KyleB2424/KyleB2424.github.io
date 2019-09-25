@@ -30,13 +30,15 @@ This lesson everything i did is below, each excersise if you require additional 
             int age = 16;
             bool glasses = false;
             string name = "Kyle";
-            Console.WriteLine("Hello my name is " + name + " and i am " + age + " years old and it is " + glasses + " that i wear glasses.");
+            Console.WriteLine("Hello my name is " + name + " and i am " + age + " years old and it is " + glasses + " that i wear 
+            glasses.");
             Console.ReadLine();
 
             int Age = 10;
             bool Glasses = false;
             string Names = "Admins Programme";
-            Console.WriteLine("Hello my name is " + Names + " and i am " + Age + " minutes old and it is " + Glasses + " that i wear glasses.");
+            Console.WriteLine("Hello my name is " + Names + " and i am " + Age + " minutes old and it is " + Glasses + " that i wear 
+            glasses.");
             Console.ReadLine();
 
             string Name;
@@ -133,3 +135,4 @@ This lesson everything i did is below, each excersise if you require additional 
             Console.WriteLine(G + " multiply " + H + " multiply " + I + " equals " + J);
             Console.ReadLine();
             ```
+            Next up is Calculations...
