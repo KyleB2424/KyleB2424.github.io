@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Computer science student
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Im studying maths and economics alongside computer science and this is the first ever time ive done any sort of programming
+because my school never did it.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:Kylybob@gmail.com)
