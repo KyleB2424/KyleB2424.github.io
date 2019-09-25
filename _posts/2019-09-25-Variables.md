@@ -25,114 +25,108 @@ something is wrong at the end of writing a lot of code then you know what you di
 This lesson everything i did is below, each excersise if you require additional help, even program them again:
 
 ```csharp
- static void Main(string[] args)
-        {
-            int age = 16;
-            bool glasses = false;
-            string name = "Kyle";
-            Console.WriteLine("Hello my name is " + name + " and i am " + age + " years old and it is " + glasses + " that i wear 
-            glasses.");
-            Console.ReadLine();
+ int age = 16;
+ bool glasses = false;
+ string name = "Kyle";
+ Console.WriteLine("Hello my name is " + name + " and i am " + age + " years old and it is " + glasses + " that i wear glasses.");
+ Console.ReadLine();
+ int Age = 10;
+ bool Glasses = false;
+ string Names = "Admins Programme";
+ Console.WriteLine("Hello my name is " + Names + " and i am " + Age + " minutes old and it is " + Glasses + " that i wear glasses.");
+ Console.ReadLine();
+ string Name;
+ Console.WriteLine("Please enter your name");
+ Name = Console.ReadLine();
+ Console.WriteLine("\nHello " + Name + ". Nice to meet you!");
+ Console.ReadLine();
 
-            int Age = 10;
-            bool Glasses = false;
-            string Names = "Admins Programme";
-            Console.WriteLine("Hello my name is " + Names + " and i am " + Age + " minutes old and it is " + Glasses + " that i wear 
-            glasses.");
-            Console.ReadLine();
+ string Surname;
+ Console.WriteLine("\nWhat is your second name?");
+ Surname = Console.ReadLine();
+ Console.WriteLine("\nIt's nice to meet you " +  Name  + " " +  Surname  + ". I am Admins programme!");
+ Console.ReadLine();
 
-            string Name;
-            Console.WriteLine("Please enter your name");
-            Name = Console.ReadLine();
-            Console.WriteLine("\nHello " + Name + ". Nice to meet you!");
-            Console.ReadLine();
+ String Y;
+ String X;
+ Console.WriteLine("So " + name + ", what is your favourite movie and how many times have you seen it?");
+ X = Console.ReadLine();
+ Y = Console.ReadLine();
+ Console.WriteLine("Nice to know that your favourite movie is " + X + " and you have seen it " + Y + " times.");
+ Console.ReadLine();
 
-            string Surname;
-            Console.WriteLine("\nWhat is your second name?");
-            Surname = Console.ReadLine();
-            Console.WriteLine("\nIt's nice to meet you " +  Name  + " " +  Surname  + ". I am Admins programme!");
-            Console.ReadLine();
+ /*
+ HelloWorld Program by J.Pitt 2007
+ This program is designed to print the words
+ Hello World! on the screen
+ */
 
-            String Y;
-            String X;
-            Console.WriteLine("So " + name + ", what is your favourite movie and how many times have you seen it?");
-            X = Console.ReadLine();
-            Y = Console.ReadLine();
-            Console.WriteLine("Nice to know that your favourite movie is " + X + " and you have seen it " + Y + " times.");
-            Console.ReadLine();
+ Console.WriteLine("Hello World!"); //this
+ Console.ReadLine(); //this
 
-            /*
-             HelloWorld Program by J.Pitt 2007
-             This program is designed to print the words
-             Hello World! on the screen
-             */
+ /*
+ * Program to demonstrate adding numbers.
+ * By J.Pitt
+ * */
 
-            Console.WriteLine("Hello World!"); //this
-            Console.ReadLine(); //this
+ // Declare Variables
+ int a = 20;
+ int b = 25;
+ int c;
+ c = a + b; // make c into a plus b
 
-            /*
-             * Program to demonstrate adding numbers.
-             * By J.Pitt
-             * */
+ //show the values on screen
+ Console.WriteLine("A is " + a);
+ Console.WriteLine("B is " + b);
+ Console.WriteLine("A plus B is " + c);
+ Console.ReadLine(); //stops the program from finishing
 
-            // Declare Variables
-            int a = 20;
-            int b = 25;
-            int c;
-            c = a + b; // make c into a plus b
+ // Declare Variables
+ int d = 81;
+ int e = 9;
+ int f;
+ f = d / e; // make c into a plus b
 
-            //show the values on screen
-            Console.WriteLine("A is " + a);
-            Console.WriteLine("B is " + b);
-            Console.WriteLine("A plus B is " + c);
-            Console.ReadLine(); //stops the program from finishing
+ //show the values on screen
+ Console.WriteLine("D is " + d);
+ Console.WriteLine("E is " + e);
+ Console.WriteLine("D minus E is " + f);
+ Console.ReadLine(); //stops the program from finishing
 
-            // Declare Variables
-            int d = 81;
-            int e = 9;
-            int f;
-            f = d / e; // make c into a plus b
+ string temp; //used to store strings until they are converted
 
-            //show the values on screen
-            Console.WriteLine("D is " + d);
-            Console.WriteLine("E is " + e);
-            Console.WriteLine("D minus E is " + f);
-            Console.ReadLine(); //stops the program from finishing
+ //get the numbers from the user 
+ Console.WriteLine("Enter number A:");
+ temp = Console.ReadLine();
+ int A = Convert.ToInt32(temp);
+ Console.WriteLine("Enter another number B:");
+ temp = Console.ReadLine();
+ int B = Convert.ToInt32(temp);
 
-            string temp; //used to store strings until they are converted
+ int C = A + B;
 
-            //get the numbers from the user 
-            Console.WriteLine("Enter number A:");
-            temp = Console.ReadLine();
-            int A = Convert.ToInt32(temp);
-            Console.WriteLine("Enter another number B:");
-            temp = Console.ReadLine();
-            int B = Convert.ToInt32(temp);
+ //display result
+ Console.WriteLine(A + " plus " + B + " equals " + C);
+ Console.ReadLine();
 
-            int C = A + B;
+ //To make the last string of code smaller you can
+ Console.WriteLine("Enter number A:");
+ int D = Convert.ToInt32(Console.ReadLine());
+ Console.WriteLine("Enter another number B:");
+ int E = Convert.ToInt32(Console.ReadLine());
+ int F = D * E;
+ Console.WriteLine(D + " multiply " + E + " equals " + F);
+ Console.ReadLine();
 
-            //display result
-            Console.WriteLine(A + " plus " + B + " equals " + C);
-            Console.ReadLine();
-
-            //To make the last string of code smaller you can
-            Console.WriteLine("Enter number A:");
-            int D = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter another number B:");
-            int E = Convert.ToInt32(Console.ReadLine());
-            int F = D * E;
-            Console.WriteLine(D + " multiply " + E + " equals " + F);
-            Console.ReadLine();
-
-            //Class program excersise 3.2 3 multiplication
-            Console.WriteLine("Enter number A:");
-            int G = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter another number B:");
-            int H = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the final number C:");
-            int I = Convert.ToInt32(Console.ReadLine());
-            int J = G * H * I;
-            Console.WriteLine(G + " multiply " + H + " multiply " + I + " equals " + J);
-            Console.ReadLine();
-            ```
-            Next up is Calculations...
+ //Class program excersise 3.2 3 multiplication
+ Console.WriteLine("Enter number A:");
+ int G = Convert.ToInt32(Console.ReadLine());
+ Console.WriteLine("Enter another number B:");
+ int H = Convert.ToInt32(Console.ReadLine());
+ Console.WriteLine("Enter the final number C:");
+ int I = Convert.ToInt32(Console.ReadLine());
+ int J = G * H * I;
+ Console.WriteLine(G + " multiply " + H + " multiply " + I + " equals " + J);
+ Console.ReadLine();
+ ```
+ Next up is Calculations...
