@@ -5,11 +5,17 @@ categories: C# Programming
 ---
 
 In todays lesson i was tested on what i know so far and this included the ability to demonstrate;
-Declaring Variables:
-Writing To The Screen:
-Reading Input From The User:
-Converting From One Data Type To Another:
-If Statements & Switch Case Statements:
+
+-Declaring Variables:
+
+-Writing To The Screen:
+
+-Reading Input From The User:
+
+-Converting From One Data Type To Another:
+
+-If Statements & Switch Case Statements:
+
 When i was first showed this i had identified that i had not done anything on switch case so i had to learn it alongside demonstrating what i know.
 
 Using switch/case allows you to make a program do different things depeendings on the value of a variable. It sometimes can be used as an alternative to if statements.
